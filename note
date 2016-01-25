@@ -1,4 +1,4 @@
 #!/bin/bash
 cd ~/.conkycolors
-sudo /usr/bin/python2.7 ~/.conkycolors/note.py $1 $2 $3 $4
+python ~/.conkycolors/note.py $1 $2 $3 $4
 cd
