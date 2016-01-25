@@ -39,17 +39,11 @@ Example (using conky-colors):
 
 
     ############
-  
     # - Note - #
-  
     ############
-  
     # type "ct help" in terminal for info
-  
     ${voffset 4}${font Liberation Sans:style=Bold:size=8}NOTE $stippled_hr${font}
-  
     ${voffset 4}${execpi 1 cat ~/.conkycolors/notes | fold -w 38 | sed 's/\[ \]/\[     \]/' | sed 's/\[X\]/\[ X \]/' | sed 's/\] /\] ${color2}/' | sed 's/$/${color}/' | sed 's/ X /${color0}${font ConkyColors:size=11}p${font}${color}${voffset -5}/'}
-  
     ##########
   
 
