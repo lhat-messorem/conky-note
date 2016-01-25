@@ -1,5 +1,6 @@
 # conky-note
 Note script for conky
+
 Written by m3ss0r3m
 
 Usage: note [OPTION] [-i, --index] <line number> CONTENTS
