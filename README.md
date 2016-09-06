@@ -1,6 +1,9 @@
 # conky-note
+
 Note script for conky
+
 Written by m3ss0r3m
+
 Version 2
 
 Usage: note [OPTION] [-i|--index= <index>] CONTENTS
@@ -8,23 +11,31 @@ Usage: note [OPTION] [-i|--index= <index>] CONTENTS
 OPTION:
 
 -h, --help
+
   display help and exit
       
 -a, --add <content> [index with -i option]
+
   adding content to current page
       
 -r, --remove [content]|[index with -i option]
+
   remove content of current page
       
 -c, --create [index with -i option]
+
   create new page
   
 -d, --delete [index with -i option]
+
   delete page
     
 -t, --turn [next|pre]|[index with -i option]
+
   turn page
+  
     next: next page
+    
     pre|previous: previous page
   
 -o, --open [editor]
@@ -32,6 +43,7 @@ OPTION:
   open notes file (default : gedit)
   
 --info
+
   show current page number
   
 <index> : line number (of current page) or page number, depend on used [OPTION]
