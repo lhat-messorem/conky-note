@@ -12,27 +12,27 @@ OPTION:
 
 -h, --help
 
-    display help and exit
+   display help and exit
       
 -a, --add <content> [index with -i option]
 
-    adding content to current page
+   adding content to current page
       
 -r, --remove [content]|[index with -i option]
 
-    remove content of current page
+   remove content of current page
       
 -c, --create [index with -i option]
 
-    create new page
+   create new page
   
 -d, --delete [index with -i option]
 
-    delete page
+   delete page
     
 -t, --turn [next|pre]|[index with -i option]
 
-    turn page
+   turn page
   
       next: next page
     
@@ -40,13 +40,14 @@ OPTION:
   
 -o, --open [editor]
 
-    open notes file (default : gedit)
+   open notes file (default : gedit)
   
 --info
 
-    show current page number
+   show current page number
   
 index : line number (of current page) or page number, depend on used [OPTION]
+      
       
 INSTALL:
 
