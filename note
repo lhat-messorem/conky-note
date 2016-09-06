@@ -1,4 +1,4 @@
 #!/bin/bash
-cd ~/.conkycolors
-python ~/.conkycolors/note.py $1 $2 $3 $4
+cd ~/.conkycolors/note
+python ~/.conkycolors/note/note.py $@
 cd
