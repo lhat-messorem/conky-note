@@ -5,12 +5,12 @@ Note script for conky
 Ver 2
 
 
-Usage: 
+# Usage
    
    note [OPTION] [-i|--index= <index>] CONTENTS
 
 
-# OPTION:
+# Option
 
    -h, --help
 
@@ -52,7 +52,7 @@ show current page number
       
       
 
-# INSTALL:
+# Install
 
 You need install conky and configure conkyrc first.
 
