@@ -7,44 +7,44 @@ Ver 2
 
 # Usage
    
-   note [OPTION] [-i|--index= <index>] CONTENTS
+      note [OPTION] [-i|--index= <index>] CONTENTS
 
 
 # Option
 
-   -h, --help
+      -h, --help
 
 display help and exit
       
-   -a, --add <content> [index with -i option]
+      -a, --add <content> [index with -i option]
 
 adding content to current page
       
-   -r, --remove [content]|[index with -i option]
+      -r, --remove [content]|[index with -i option]
 
 remove content of current page
       
-   -c, --create [index with -i option]
+      -c, --create [index with -i option]
 
 create new page
   
-   -d, --delete [index with -i option]
+      -d, --delete [index with -i option]
 
 delete page
     
-   -t, --turn [next|pre]|[index with -i option]
+      -t, --turn [next|pre]|[index with -i option]
 
 turn page
   
-         next: next page
+     next: next page
     
-         pre|previous: previous page
+     pre|previous: previous page
   
-   -o, --open [editor]
+      -o, --open [editor]
 
 open notes file (default : gedit)
   
-   --info
+      --info
 
 show current page number
   
