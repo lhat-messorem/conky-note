@@ -36,11 +36,11 @@ delete page
 
 turn page
   
-     next: next page
+   next: next page
     
-     pre|previous: previous page
+   pre|previous: previous page
   
-      -o, --open [editor]
+         -o, --open [editor]
 
 open notes file (default : gedit)
   
